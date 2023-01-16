@@ -1,0 +1,254 @@
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+main,
+.courses_name {
+    padding: 8px 78px;
+}
+
+header,
+.courses {
+    display: flex;
+}
+
+header {
+    padding: 8px 78px;
+    background-color: whitesmoke;
+}
+
+.courses {
+    padding: 8px 78px;
+}
+
+span,
+#fil,
+.list {
+    display: inline;
+    padding: 8px;
+}
+
+.fa-sharp {
+    color: blue;
+}
+
+select {
+    width: 20px;
+    height: 20px;
+    /*  border: 2px solid #0096ff; */
+    padding: 5px 8px;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 10px;
+    justify-items: center;
+}
+
+.list,
+nav {
+    margin-right: -18px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px;
+    margin-top: -8px;
+    /*  border: 2px solid #0096ff; */
+    padding: 5px 8px;
+    margin-right: 14px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    color: blue;
+    grid-template-columns: subgrid;
+    display: block;
+
+}
+
+li:hover {
+    color: whitesmoke;
+    background-color: blue;
+}
+
+img {
+    overflow: hidden;
+
+}
+
+nav li {
+    display: flex;
+    grid-gap: 2rem;
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+.cards {
+    display: flex;
+    grid-gap: 2.4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    background-color: beige;
+    padding: 10px 15px;
+}
+
+.card1 {
+    width: 23%;
+    cursor: pointer;
+
+    overflow: hidden;
+    /* padding: 5px 10px; */
+    border-radius: 8px;
+    padding: 5px 6px;
+    /* background-color: whitesmoke;
+    transform: skew(5); */
+}
+
+.card2 {
+    width: 23%;
+    cursor: pointer;
+
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 5px 6px;
+    /*  padding: 5px 10px; */
+}
+
+.card3 {
+    width: 23%;
+    cursor: pointer;
+
+    overflow: hidden;
+    /* padding: 5px 10px; */
+    border-radius: 8px;
+    /*  border: 2px solid #0096ff; */
+    padding: 5px 6px;
+    box-sizing: border-box;
+}
+
+.card4 {
+    width: 23%;
+    cursor: pointer;
+
+    overflow: hidden;
+    border-radius: 8px;
+    /*  border: 2px solid #0096ff; */
+    padding: 5px 6px;
+}
+
+.card5 {
+    width: 23%;
+    cursor: pointer;
+
+    overflow: hidden;
+    border-radius: 8px;
+    /*  border: 2px solid #0096ff; */
+    padding: 5px 6px;
+}
+
+.card6 {
+    width: 23%;
+    cursor: pointer;
+
+    overflow: hidden;
+    border-radius: 8px;
+    /*  border: 2px solid #0096ff; */
+    padding: 5px 6px;
+}
+
+.text {
+    color: gray;
+    min-width: 21%;
+}
+
+.col {
+    color: black;
+}
+
+footer{
+    background-color: #172146;
+    background-color: none;
+}
+.edy{
+    display: grid;
+    text-decoration: none;
+
+}
+.edy,li{
+    color:white;
+    border: none;
+}
+.cl{
+    color: gray;
+}
+.Resources{
+    display: block;
+}
+.res{
+    display: grid;
+
+}
+footer{
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -20px;
+
+}
+.footerwrap{
+    background-color: none;
+    display: flex;
+    font-size: 14px;
+    padding: 20px 15px;
+    margin-left: 15%;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 20px;
+}
+.subfooter_four{
+    width: 25%;
+    font-size: 10px;
+    margin-left: 20px;
+}
+/* footer {
+    background-color: #172146;
+    padding: 5px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.footerwrap {
+    display: flex;
+    margin-left: 120px;
+    padding: 0px 8px;
+    row-gap: 20px;
+    column-gap: 80px;
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+
+} */
+
+.footerwrap p {
+    font-size: 18px;
+}
+
+.footerwrap,
+h3 {
+    color: #d8d8d8;
+}
+
+.logo {
+    display: inline-flex;
+}
+h3{
+    font-size:18px;
+}
+.fa-brands{
+    margin-left: 20px;
+}
